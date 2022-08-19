@@ -10,8 +10,9 @@ let searchBtn = document.getElementById("searchBtn");
 
 
 
-searchBtn.addEventListener("click" , CardBySearch);
-function CardBySearch(){
+searchBtn.onclick = (event) => {
+    // cancel default behavior (refresh page)
+    event.preventDefault()
     const input= document.getElementById("searchInp").value;
     if(input==""){
         alert("Please type digimon name to search for .");
