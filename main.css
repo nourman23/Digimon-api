@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  height: 350vh;
+}
+main {
+  height: 100vh;
+}
+
+#cardsSec {
+  display: flex;
+  width: 80%;
+  margin: 10px auto;
+  flex-wrap: wrap;
+}
+h3 {
+  text-align: center;
+}
+#card {
+  display: flex;
+  flex-direction: column;
+  width: 16rem;
+  margin: 20px;
+  box-shadow: #fe740d 0px 2px 7px 0px;
+  transition: all 0.4s;
+}
+#card:hover {
+  transform: scale(1.1);
+}
+#card p {
+  padding: 6px;
+}
+#subBtn {
+  width: 100px;
+  border: none;
+  background-color: #fe740d;
+  color: white;
+}
+.logo {
+  width: 150px;
+}
+#digmonName {
+  letter-spacing: 2px;
+  font-size: 20px;
+  color: #fe740d;
+
+  align-self: center;
+}
+#digmonLev {
+  margin-left: 20px;
+
+  align-self: center;
+}
+#digmonImg {
+  align-self: center;
+  width: 150px;
+}
+
+#levT {
+  font-weight: bold;
+  color: rgb(68, 68, 68);
+}
+#searchBtn {
+  background-color: #fe740d;
+  border: none;
+  color: white;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.contact a {
+  padding: 10px;
+  margin: 5px;
+}
+
+.contact a ion-icon {
+  font-size: 26px;
+  color: grey;
+}
+
+.contact a ion-icon:hover {
+  color: rgb(82, 80, 80);
+}
